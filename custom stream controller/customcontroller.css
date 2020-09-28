@@ -8,15 +8,7 @@
 }
 
 .xbox.white {
-    background: url(basemod.png);
-}
-
-.xbox.disconnected {
-    background: url(xbox-assets/disconnected.svgz);
-}
-
-.xbox.disconnected div {
-    display: none;
+    background: url(xbox-assets/base-white.svgz);
 }
 
 .xbox .triggers {
@@ -72,16 +64,6 @@
     transform: rotateY(180deg);
 }
 
-.xbox .quadrant {
-    position: absolute;
-    background: url(xbox-assets/quadrant.svgz);
-    height: 45px;
-    width: 45px;
-    top: 258px;
-    left: 354px;
-    z-index: 0;
-}
-
 .xbox .p0 {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -108,26 +90,6 @@
     height: 33px;
     top: 264px;
     left: 306px;
-}
-
-.xbox .back, .xbox .start {
-    background: url(xbox-assets/start-select.svgz);
-    width: 33px;
-    height: 33px;
-    opacity: 0;
-}
-
-.xbox .back.pressed, .xbox .start.pressed {
-    opacity: 1;
-}
-
-.xbox .back {
-    float: left;
-}
-
-.xbox .start {
-    background-position: 33px 0px;
-    float: right;
 }
 
 .xbox .abxy {
@@ -185,7 +147,7 @@
 
 .xbox .stick {
     position: absolute;
-    background: url(stickmod.png);
+    background: url(stickmod,png);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
